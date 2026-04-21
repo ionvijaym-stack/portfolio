@@ -168,8 +168,7 @@ export const teamMembers = [
     id: 'Rajakapil Dev',
     name: 'Rajakapil Dev',
     role: 'AI and Data Solutions Lead',
-    photo:
-      'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80',
+    photo: teamPhotoOne,
   },
 ]
 
