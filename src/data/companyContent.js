@@ -1,6 +1,8 @@
 import heroVisual from '../assets/hero.png'
-import teamPhotoOne from '../assets/1.jpg'
-import teamPhotoTwo from '../assets/2.jpg'
+import sureshPhoto from '../assets/suresh.png'
+import mahendraPhoto from '../assets/mahendra.png'
+import pavanPhoto from '../assets/pavan.png'
+import kapilPhoto from '../assets/kapil.png'
 
 export const mainNavigation = [
   { id: 'home', label: 'Home', to: '/' },
@@ -146,29 +148,28 @@ export const testimonials = [
 
 export const teamMembers = [
   {
-    id: 'vijay',
-    name: 'Vijay',
-    role: 'Founder and Strategy Lead',
-    photo: teamPhotoOne,
-  },
-  {
     id: 'suresh',
     name: 'Suresh',
     role: 'Head of Experience Design',
-    photo: teamPhotoTwo,
+    photo: sureshPhoto,
   },
   {
     id: 'mahendra',
     name: 'Mahendra',
     role: 'Engineering Director',
-    photo:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80',
+    photo: mahendraPhoto,
+  },
+  {
+    id: 'pavan',
+    name: 'Pavan',
+    role: 'Product Delivery Lead',
+    photo: pavanPhoto,
   },
   {
     id: 'Rajakapil Dev',
     name: 'Rajakapil Dev',
     role: 'AI and Data Solutions Lead',
-    photo: teamPhotoOne,
+    photo: kapilPhoto,
   },
 ]
 
